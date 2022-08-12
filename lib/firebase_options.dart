@@ -4,16 +4,6 @@ import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
-/// Default [FirebaseOptions] for use with your Firebase apps.
-///
-/// Example:
-/// ```dart
-/// import 'firebase_options.dart';
-/// // ...
-/// await Firebase.initializeApp(
-///   options: DefaultFirebaseOptions.currentPlatform,
-/// );
-/// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -66,7 +56,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1011012681251',
     projectId: 'zoom-clone-webrtc',
     storageBucket: 'zoom-clone-webrtc.appspot.com',
-    iosClientId: '1011012681251-rv1j4bi9h1boj2crm9hj380t54bo0ag3.apps.googleusercontent.com',
+    iosClientId:
+        '1011012681251-rv1j4bi9h1boj2crm9hj380t54bo0ag3.apps.googleusercontent.com',
     iosBundleId: 'com.example.zoomClone',
   );
 
@@ -76,7 +67,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1011012681251',
     projectId: 'zoom-clone-webrtc',
     storageBucket: 'zoom-clone-webrtc.appspot.com',
-    iosClientId: '1011012681251-rv1j4bi9h1boj2crm9hj380t54bo0ag3.apps.googleusercontent.com',
+    iosClientId:
+        '1011012681251-rv1j4bi9h1boj2crm9hj380t54bo0ag3.apps.googleusercontent.com',
     iosBundleId: 'com.example.zoomClone',
   );
 }
